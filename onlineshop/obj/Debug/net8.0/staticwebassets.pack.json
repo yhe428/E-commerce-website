@@ -1,0 +1,945 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\onlineshop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\onlineshop.toascyh0j5.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\012e9af1-634b-48b3-a1a1-6b3385c556ce.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\012e9af1-634b-48b3-a1a1-6b3385c556ce.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\206eb0d8-5002-4725-bbaf-a4cd57269520.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\206eb0d8-5002-4725-bbaf-a4cd57269520.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\278d61a3-593a-4122-8f26-fbd12369a238.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\278d61a3-593a-4122-8f26-fbd12369a238.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\2cc3902d-5dff-4da4-bb35-6565189c4834.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\2cc3902d-5dff-4da4-bb35-6565189c4834.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\369fe603-e83b-464d-b70f-713be45a55b8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\369fe603-e83b-464d-b70f-713be45a55b8.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\36ae521a-209d-4aeb-ac46-9c78deef3000.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\36ae521a-209d-4aeb-ac46-9c78deef3000.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\38739570-bb44-4b2b-92bb-c1f7ed20654f.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\38739570-bb44-4b2b-92bb-c1f7ed20654f.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\396c72f4-517b-458d-91b0-1037cd122e9b.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\396c72f4-517b-458d-91b0-1037cd122e9b.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\39cabc92-1ac0-4beb-bb01-0297747d7b14.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\39cabc92-1ac0-4beb-bb01-0297747d7b14.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\3c2adcf3-be59-4f84-a000-2b22c6909082.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\3c2adcf3-be59-4f84-a000-2b22c6909082.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\4326a02f-88cf-42af-be06-563440f2801c.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\4326a02f-88cf-42af-be06-563440f2801c.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\43721c60-6a63-4f30-bbab-95e82bc7ebe5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\43721c60-6a63-4f30-bbab-95e82bc7ebe5.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\61ccdafe-077b-4280-95d6-2ff2537aad99.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\61ccdafe-077b-4280-95d6-2ff2537aad99.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\63535044-c27d-47cd-9064-b5f64a2dcc2a.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\63535044-c27d-47cd-9064-b5f64a2dcc2a.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\657952da-3ce5-4d1e-92a0-dc5f4c12a454.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\657952da-3ce5-4d1e-92a0-dc5f4c12a454.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\66e19700-f160-41ed-bfcf-1ef0b41fe649.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\66e19700-f160-41ed-bfcf-1ef0b41fe649.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\7a755439-576d-45dd-a8b5-7b90b1f47718.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\7a755439-576d-45dd-a8b5-7b90b1f47718.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\7c1bc16f-659a-4b8f-97e4-a4bdcd8b4a4e.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\7c1bc16f-659a-4b8f-97e4-a4bdcd8b4a4e.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\7eee8089-bb5a-4e44-a8b3-3b32eb3bb53a.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\7eee8089-bb5a-4e44-a8b3-3b32eb3bb53a.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\800a351c-7030-4eb1-94f3-de306b966b0c.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\800a351c-7030-4eb1-94f3-de306b966b0c.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\812c0b0a-1f05-4911-bc99-5ac3406b0241.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\812c0b0a-1f05-4911-bc99-5ac3406b0241.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\81a9edc2-ab85-4c31-938d-ffb1491ebbd6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\81a9edc2-ab85-4c31-938d-ffb1491ebbd6.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\8cf6c21e-d5f0-4a6a-bf61-cdcbc0ab9727.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\8cf6c21e-d5f0-4a6a-bf61-cdcbc0ab9727.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\91821af8-97b7-4ae4-b628-c940201b3c3a.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\91821af8-97b7-4ae4-b628-c940201b3c3a.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\957cddbf-f65c-4a4e-a6c4-4f2a7945b92f.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\957cddbf-f65c-4a4e-a6c4-4f2a7945b92f.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\95a92bbe-ac40-4898-89ad-44a4e613a8b5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\95a92bbe-ac40-4898-89ad-44a4e613a8b5.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\9812ce13-5ae2-48f8-80be-ba3673eec490.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\9812ce13-5ae2-48f8-80be-ba3673eec490.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\a4798d52-17fc-4437-970b-140246a33728.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\a4798d52-17fc-4437-970b-140246a33728.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\a670e403-a2c5-41ce-94ea-08146499cf94.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\a670e403-a2c5-41ce-94ea-08146499cf94.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\a756e74d-c7eb-4161-94cd-39ff9d231263.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\a756e74d-c7eb-4161-94cd-39ff9d231263.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\accd2137-337e-40a0-87a9-4df6b39162de.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\accd2137-337e-40a0-87a9-4df6b39162de.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\b7fefbf2-6e47-4661-9c40-233e49093eff.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\b7fefbf2-6e47-4661-9c40-233e49093eff.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\bb3aaee4-f3a7-49ab-ac1d-fdb5f546526f.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\bb3aaee4-f3a7-49ab-ac1d-fdb5f546526f.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\bbf2aee8-0d38-4e14-b22f-afff193390e9.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\bbf2aee8-0d38-4e14-b22f-afff193390e9.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\bd7b0b49-6f31-40c4-880a-3d6612c84390.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\bd7b0b49-6f31-40c4-880a-3d6612c84390.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\c2fd2d02-674d-4317-84b5-bc53094ce627.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\c2fd2d02-674d-4317-84b5-bc53094ce627.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\c8c053fc-8ad1-4cc8-91f0-8b0debb710da.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\c8c053fc-8ad1-4cc8-91f0-8b0debb710da.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\cc3ae3e7-287d-4ae0-b1ed-16722cccfa7a.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\cc3ae3e7-287d-4ae0-b1ed-16722cccfa7a.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\cfd67ac8-f6ce-4f72-978f-d7889df665bb.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\cfd67ac8-f6ce-4f72-978f-d7889df665bb.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\d5250c58-215d-488c-a89f-12c5b167bb04.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\d5250c58-215d-488c-a89f-12c5b167bb04.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\fbc0c790-08bb-471e-9bf8-3a8d40c105cd.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\fbc0c790-08bb-471e-9bf8-3a8d40c105cd.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\Banners\\fee4cb93-5ed2-40d0-962b-bdffa5f0dfd2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Banners\\fee4cb93-5ed2-40d0-962b-bdffa5f0dfd2.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\Images\\f5ffa4fa-9f58-4ef4-b879-d4dfa4a3f341.png",
+      "PackagePath": "staticwebassets\\Images\\f5ffa4fa-9f58-4ef4-b879-d4dfa4a3f341.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\font.awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font.awesome.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\simple-line-icons.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\style",
+      "PackagePath": "staticwebassets\\assets\\css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\style.map",
+      "PackagePath": "staticwebassets\\assets\\css\\style.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\vendor\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendor\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\css\\vendor\\vendor.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendor\\vendor.min.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\bg\\bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\bg1.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\bg\\bg2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\bg2.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\bg\\bg3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\bg3.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\bg\\bg4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\bg4.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\bg\\shop_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\shop_bg.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\blog1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog1.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\blog2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog2.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\blog3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog3.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\blog4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog4.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\blog5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog5.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\blog6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog6.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\blog7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog7.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\blog8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog8.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\blog9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog9.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\blogbig.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blogbig.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\comment2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\comment2.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\post-comment1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\post-comment1.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\post-comment2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\post-comment2.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\related1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\related1.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\blog\\related2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\related2.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\icon\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\logo\\Icon metro-list.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\Icon metro-list.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\logo\\Icon open-grid-three-up.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\Icon open-grid-three-up.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\logo.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\others\\instagram1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram1.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\others\\instagram2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram2.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\others\\instagram3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram3.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\others\\instagram4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram4.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\others\\instagram5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram5.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\others\\instagram6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram6.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\others\\instagram7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram7.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\others\\instagram8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram8.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\paypal.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\paypal.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\big-product\\product1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\big-product\\product1.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\product1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product1.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\product2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product2.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\product2.jpg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product2.jpg.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\product3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product3.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\product4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product4.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\product5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product5.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\product6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product6.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\product7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product7.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\product8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product8.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\small-product\\product1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\small-product\\product1.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\small-product\\product2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\small-product\\product2.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\small-product\\product3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\small-product\\product3.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\product\\small-product\\product4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\small-product\\product4.png"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\slider\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\1.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\slider\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\10.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\slider\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\2.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\slider\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\3.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\slider\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\4.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\slider\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\5.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\slider\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\7.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\slider\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\8.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\img\\slider\\slider1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider1.jpg"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\images-loaded.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\images-loaded.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\jquery.instagramFeed.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.instagramFeed.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\jquery.nice-select.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.nice-select.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\jquery.scrollup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.scrollup.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\mailchimp-ajax.js",
+      "PackagePath": "staticwebassets\\assets\\js\\mailchimp-ajax.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\tippy-bundle.umd.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tippy-bundle.umd.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\vendor\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\vendor\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\vendor\\modernizr-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.7.1.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\vendor\\popper.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\popper.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\vendor\\vendor.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\vendor.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\mail.php",
+      "PackagePath": "staticwebassets\\assets\\mail.php"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\_common.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_common.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\_variabls.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_variabls.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_banner.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_banner.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_blog-details.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_blog-details.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_blog.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_cart-page.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_cart-page.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_checkout.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_checkout.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_header.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_other.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_other.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_product-details.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_product-details.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_product.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_product.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_quick-view.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_quick-view.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_shop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_shop.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\section\\_slider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_slider.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\blog-details.html",
+      "PackagePath": "staticwebassets\\blog-details.html"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\blog.html",
+      "PackagePath": "staticwebassets\\blog.html"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\cart.html",
+      "PackagePath": "staticwebassets\\cart.html"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\checkout.html",
+      "PackagePath": "staticwebassets\\checkout.html"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\link.txt",
+      "PackagePath": "staticwebassets\\link.txt"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\product-details.html",
+      "PackagePath": "staticwebassets\\product-details.html"
+    },
+    {
+      "Id": "D:\\Yang\\NET_project\\onlineshopSn\\onlineshop\\wwwroot\\shop.html",
+      "PackagePath": "staticwebassets\\shop.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.onlineshop.props",
+      "PackagePath": "build\\onlineshop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.onlineshop.props",
+      "PackagePath": "buildMultiTargeting\\onlineshop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.onlineshop.props",
+      "PackagePath": "buildTransitive\\onlineshop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.onlineshop.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.onlineshop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
