@@ -1,5 +1,6 @@
-﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using onlineshop.Models.Db;
 using onlineshop.Models;
@@ -22,9 +23,9 @@ namespace onlineshop.Controllers
             _configuration = iconfiguration;
             _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var result = GetProductsinCart();
+            var result = await GetProductsinCartAsync();
             return View(result);
         }
         public IActionResult ClearCart()
@@ -42,10 +43,9 @@ namespace onlineshop.Controllers
         /// </param>
         /// <returns></returns>
         [HttpPost]
-        public IActionResult UpdateCart([FromBody] CartViewModel request)
+        public async Task<IActionResult> UpdateCart([FromBody] CartViewModel request)
         {
-
-            var product = _context.Products.FirstOrDefault(x => x.Id == request.ProductId);
+            var product = await _context.Products.FirstOrDefaultAsync(x => x.Id == request.ProductId);
             if (product == null)
             {
                 return NotFound();
@@ -108,7 +108,7 @@ namespace onlineshop.Controllers
             return cartList;
         }
 
-        public List<ProductCartViewModel> GetProductsinCart()
+        public async Task<List<ProductCartViewModel>> GetProductsinCartAsync()
         {
             var cartItems = GetCartItems();
 
@@ -118,10 +118,10 @@ namespace onlineshop.Controllers
             }
 
             var cartItemProductIds = cartItems.Select(x => x.ProductId).ToList();
-            // Load products into memory
-            var products = _context.Products
+            // Load products into memory efficiently
+            var products = await _context.Products
                 .Where(p => cartItemProductIds.Contains(p.Id))
-                .ToList();
+                .ToListAsync();
 
             // Create the ProductCartViewModel list
 
@@ -144,24 +144,24 @@ namespace onlineshop.Controllers
             return result;
         }
 
-        public IActionResult SmallCart()
+        public async Task<IActionResult> SmallCart()
         {
-            var result = GetProductsinCart();
+            var result = await GetProductsinCartAsync();
             return PartialView(result);
         }
 
         [Authorize]
-        public IActionResult Checkout()
+        public async Task<IActionResult> Checkout()
         {
             var order = new Models.Db.Order();
 
-            var shipping = _context.Settings.First().Shipping;
-            if (shipping != null)
+            var settings = await _context.Settings.FirstOrDefaultAsync();
+            if (settings?.Shipping != null)
             {
-                order.Shipping = shipping;
+                order.Shipping = settings.Shipping;
             }
 
-            ViewData["Products"] = GetProductsinCart();
+            ViewData["Products"] = await GetProductsinCartAsync();
             return View(order);
         }
 

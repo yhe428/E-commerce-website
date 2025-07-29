@@ -1,85 +1,174 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using onlineshop.Models.Db;
+using onlineshop.Services;
 using System.Text.RegularExpressions;
 
 namespace onlineshop.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly OnlineShopContext _context;
-        public ProductController(OnlineShopContext context)
+        private readonly IProductService _productService;
+        private const int PageSize = 12; // Products per page
+
+        public ProductController(IProductService productService)
         {
-            _context = context;
+            _productService = productService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
-            List<Product> products = _context.Products.OrderByDescending(x => x.Id).ToList();
-            return View(products);
-        }
-        public IActionResult SearchProducts(String SearchText)
-        {
-            var products = _context.Products.Where(x => EF.Functions.Like(x.Title, "%" + SearchText + "%") ||
-            EF.Functions.Like(x.Tags, "%" + SearchText + "%")
-            )
-            .OrderBy(x => x.Title)
-            .ToList();
-            return View("Index", products);
+            try
+            {
+                var totalProducts = await _productService.GetProductCountAsync();
+                var totalPages = (int)Math.Ceiling((double)totalProducts / PageSize);
+                
+                var products = await _productService.GetProductsAsync(page, PageSize);
+
+                ViewData["CurrentPage"] = page;
+                ViewData["TotalPages"] = totalPages;
+                ViewData["HasPreviousPage"] = page > 1;
+                ViewData["HasNextPage"] = page < totalPages;
+
+                return View(products);
+            }
+            catch (Exception ex)
+            {
+                // Log error and return empty list
+                return View(new List<Product>());
+            }
         }
 
-        public IActionResult ProductDetails(int id)
+        public async Task<IActionResult> SearchProducts(string SearchText, int page = 1)
         {
-            Product? product = _context.Products.FirstOrDefault(x=>x.Id==id);
-            //-------------------------
-            if(product == null)
+            try
+            {
+                if (string.IsNullOrWhiteSpace(SearchText))
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+
+                var totalProducts = await _productService.GetSearchProductCountAsync(SearchText);
+                var totalPages = (int)Math.Ceiling((double)totalProducts / PageSize);
+
+                var products = await _productService.SearchProductsAsync(SearchText, page, PageSize);
+
+                ViewData["SearchText"] = SearchText;
+                ViewData["CurrentPage"] = page;
+                ViewData["TotalPages"] = totalPages;
+                ViewData["HasPreviousPage"] = page > 1;
+                ViewData["HasNextPage"] = page < totalPages;
+
+                return View("Index", products);
+            }
+            catch (Exception ex)
+            {
+                return View("Index", new List<Product>());
+            }
+        }
+
+        public async Task<IActionResult> ProductDetails(int id)
+        {
+            try
+            {
+                var product = await _productService.GetProductByIdAsync(id);
+                
+                if (product == null)
+                {
+                    return NotFound();
+                }
+
+                // Load related data efficiently in parallel
+                var galleryTask = _productService.GetProductGalleryAsync(id);
+                var newProductsTask = _productService.GetRelatedProductsAsync(id, 6);
+                var commentsTask = _productService.GetProductCommentsAsync(id);
+
+                // Wait for all tasks to complete
+                await Task.WhenAll(galleryTask, newProductsTask, commentsTask);
+
+                ViewData["gallery"] = await galleryTask;
+                ViewData["NewProducts"] = await newProductsTask;
+                ViewData["comments"] = await commentsTask;
+
+                return View(product);
+            }
+            catch (Exception ex)
             {
                 return NotFound();
             }
-            //-------------------------
-            ViewData["gallery"] = _context.ProductGaleries.Where(x => x.ProductId == id).ToList();
-            //-------------------------
-            ViewData["NewProducts"] = _context.Products.Where(x => x.Id != id).Take(6).OrderByDescending(x=>x.Id).ToList();
-            //----------------------
-            ViewData["comments"] = _context.Comments.Where(x => x.ProductId == id).OrderByDescending(x => x.CreateDate).ToList();
-            //----------------------
-
-            return View(product);
         }
+
         [HttpPost]
-        public IActionResult SubmitComment(string name, string email, string comment, int productId)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> SubmitComment(string name, string email, string comment, int productId)
         {
-            if (!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(comment) && productId != 0)
+            try
             {
-                Regex regex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
-                Match match = regex.Match(email);
-                if (!match.Success)
+                if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(email) || 
+                    string.IsNullOrWhiteSpace(comment) || productId <= 0)
                 {
-                    TempData["ErrorMessage"] = "Email is not valid";
-                    return Redirect("/Products/ProductDetails/" + productId);
+                    TempData["ErrorMessage"] = "Please complete your information";
+                    return Redirect("/Product/ProductDetails/" + productId);
                 }
 
-                Comment newComment = new Comment();
-                newComment.Name = name;
-                newComment.Email = email;
-                newComment.CommentText = comment;
-                newComment.ProductId = productId;
-                newComment.CreateDate = DateTime.Now;
+                // Use more robust email validation
+                if (!IsValidEmail(email))
+                {
+                    TempData["ErrorMessage"] = "Email is not valid";
+                    return Redirect("/Product/ProductDetails/" + productId);
+                }
 
-                _context.Comments.Add(newComment);
-                _context.SaveChanges();
+                // Verify product exists
+                var productExists = await _productService.ProductExistsAsync(productId);
+                if (!productExists)
+                {
+                    TempData["ErrorMessage"] = "Product not found";
+                    return Redirect("/Product/");
+                }
 
-                TempData["SuccessMessage"] = "Youre comment submited successfully";
+                var newComment = new Comment
+                {
+                    Name = name.Trim(),
+                    Email = email.Trim().ToLowerInvariant(),
+                    CommentText = comment.Trim(),
+                    ProductId = productId,
+                    CreateDate = DateTime.UtcNow
+                };
+
+                var success = await _productService.AddCommentAsync(newComment);
+                
+                if (success)
+                {
+                    TempData["SuccessMessage"] = "Your comment submitted successfully";
+                }
+                else
+                {
+                    TempData["ErrorMessage"] = "An error occurred while submitting your comment";
+                }
+
                 return Redirect("/Product/ProductDetails/" + productId);
             }
-            else
+            catch (Exception ex)
             {
-                TempData["ErrorMessage"] = "Please complete youre information";
+                TempData["ErrorMessage"] = "An error occurred while submitting your comment";
                 return Redirect("/Product/ProductDetails/" + productId);
             }
-
         }
 
+        private static bool IsValidEmail(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+                return false;
 
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }
